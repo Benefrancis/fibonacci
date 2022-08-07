@@ -26,22 +26,28 @@ public class MagicNumber {
 
 		String fazendo = "";
 
-		for (int i = 0; i < fibo.length; i++) {
+		for (int i = 1; i < fibo.length; i++) {
 			fibo[i] = new FibonacciRecursiveOtimizated(i).calculate(i);
 		}
 
+		System.out.println();
+		
 		for (long l : fibo) {
 			System.out.print(l + " ");
 		}
-
+		
+		System.out.println("\n\nO número mágico é obtido pela divisão do número posterior pelo número anterior da sequência de fibonacci. \nEste número vai se tornando cada vez mais exato (1,618) na medida em que os números vão crescendo. \nVeja: ");
+		
 		for (int i = 1; i < fibo.length - 1; i++) {
 			numeroMagico[i] = ((double) fibo[i + 1] / (double) fibo[i]);
 			fazendo = fibo[i + 1] + " : " + fibo[i] + " = " + String.format("%.20f", numeroMagico[i]);
 			System.out.println(fazendo);
 		}
 
-		System.out.println();
 
+ 
+		
+		sc.close();
 	}
 
 	public int getN() {
