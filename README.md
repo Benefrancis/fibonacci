@@ -10,14 +10,19 @@ A sequência de Fibonacci é dada pela fórmula:
 
 <img src="formula.png">
 
-A Sequência de Fibonacci consiste em uma sucessão de números, tais que, definindo os dois primeiros números da sequência como 0 e 1, os números seguintes serão obtidos por meio da soma dos seus dois antecessores. Portanto, os números são: 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181...
+ 
 
-<img src="retangulo.png">
+A Sequência de Fibonacci consiste em uma sucessão de números, tais que, definindo os dois primeiros números da sequência como 0 e 1, os números seguintes serão obtidos por meio da soma dos seus dois antecessores. Portanto, os números são: 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181...
 
 
 # O Número de Ouro
 
+<img src="numero_magico.gif">
+
+
 Se nós dividirmos a base pela altura de um retângulo áureo, extrai-se a razão que é um "número irracional algébrico" conhecido como número de ouro, denotado com o símbolo "φ" (PHI), em homenagem ao escultor Phideas (Fídias), que a teria utilizado para conceber o Parthenon, e com o valor arredondado a três casas decimais de 1,618. 
+
+<img src="numero-de-ouro.gif">
 
 Desde a Antiguidade, a proporção áurea é usada na arte.[9] É frequente a sua utilização em pinturas renascentistas, como as do mestre Giotto. Este número está envolvido com a natureza do crescimento. Phi (não confundir com o número Pi {\displaystyle \pi }\pi), como é chamado o número de ouro, pode ser encontrado de forma aproximada no homem (o tamanho das falanges, ossos dos dedos, por exemplo), nas colmeias, entre inúmeros outros exemplos que envolvem a ordem de crescimento na natureza.
 
