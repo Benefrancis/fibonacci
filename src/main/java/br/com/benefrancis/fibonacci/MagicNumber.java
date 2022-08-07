@@ -1,5 +1,7 @@
 package br.com.benefrancis.fibonacci;
 
+import java.util.Scanner;
+
 public class MagicNumber {
 	int n;
 
@@ -10,7 +12,13 @@ public class MagicNumber {
 
 	public static void main(String[] args) {
 
-		MagicNumber mn = new MagicNumber(10);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade de fibonacci que deseja calcular: ");
+
+		int qtd = sc.nextInt();
+
+		MagicNumber mn = new MagicNumber(qtd);
 
 		long[] fibo = new long[mn.getN() + 1];
 
@@ -31,7 +39,7 @@ public class MagicNumber {
 			fazendo = fibo[i + 1] + " : " + fibo[i] + " = " + String.format("%.20f", numeroMagico[i]);
 			System.out.println(fazendo);
 		}
-		
+
 		System.out.println();
 
 	}
